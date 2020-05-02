@@ -1,3 +1,7 @@
+h1{
+  color: white;
+}
+
 .user-info {
   display: grid;
   grid: auto auto / 80px 1fr;
