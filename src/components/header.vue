@@ -17,11 +17,20 @@
 </template>
 
 <script>
+  import {mapActions,mapGetters} from 'vuex'
+
   export default {
     data(){
       return {
-        isLogin:true
       }
+    },
+    created() {
+
+    },
+    methods:{
+      ...mapActions([
+        'checkLogin'
+      ])
     }
   }
 </script>
